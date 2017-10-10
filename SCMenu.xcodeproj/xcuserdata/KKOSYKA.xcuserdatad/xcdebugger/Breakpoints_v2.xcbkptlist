@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SCMenu/ViewController.swift"
+            timestampString = "529286602.892664"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SCMenu.ViewController.first.getter : Swift.Int"
+                  moduleName = "SCMenu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/KKOSYKA/Desktop/SMITH/PROJECTS/SCMenu/SCMenu/ViewController.swift"
+                  timestampString = "529260104.995498"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SCMenu.ViewController.first.setter : Swift.Int"
+                  moduleName = "SCMenu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/KKOSYKA/Desktop/SMITH/PROJECTS/SCMenu/SCMenu/ViewController.swift"
+                  timestampString = "529260104.995724"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SCMenu.ViewController.first.materializeForSet : Swift.Int"
+                  moduleName = "SCMenu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/KKOSYKA/Desktop/SMITH/PROJECTS/SCMenu/SCMenu/ViewController.swift"
+                  timestampString = "529260104.995849"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SCMenu.ViewController.init (SCMenu.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; SCMenu.ViewController"
+                  moduleName = "SCMenu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/KKOSYKA/Desktop/SMITH/PROJECTS/SCMenu/SCMenu/ViewController.swift"
+                  timestampString = "529260104.995963"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "412">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SCMenu.ViewController.init (SCMenu.ViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;SCMenu.ViewController&gt;"
+                  moduleName = "SCMenu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/KKOSYKA/Desktop/SMITH/PROJECTS/SCMenu/SCMenu/ViewController.swift"
+                  timestampString = "529260104.996076"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "309">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SCMenu/ViewController.swift"
+            timestampString = "529286602.892664"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
