@@ -90,9 +90,14 @@ class ViewController: UIViewController {
                     }
                 }
             }
+            var inc = 0;
+            for item in associatedIndex {
+                if(item == 0){
+                    inc++
+                }
+            }
             for(indexHouse, house) in currHouses.enumerate(){
-                let mealHouse = temp1[associatedIndex[indexHouse+4]]
-
+                let mealHouse = temp1[associatedIndex[indexHouse+inc]] //+2, +4, +9
                 let temp3 = mealHouse.componentsSeparatedByStrings(houseMealOptions[indexHouse])
                 var meal = [[String]]()
                 for i in (1...(temp3.count-1)){
@@ -182,7 +187,7 @@ class ViewController: UIViewController {
         }
         
         if(vcName == "breakfastView"){
-            let vc = self.storyboard!.instantiateViewControllerWithIdentifier(vcName) as! DinnerViewController
+            let vc = self.storyboard!.instantiateViewControllerWithIdentifier(vcName) as! BreakfastViewController
             vc.breakfast = currBreakfast
             vc.lunch = currLunch
             vc.dinner = currDinner
