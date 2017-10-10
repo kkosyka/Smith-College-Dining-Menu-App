@@ -1,6 +1,7 @@
 # Smith College Dining Menu App
 ## October 2017 - Present
-###Swift2
+(Swift2)
+</br>
 Smith College Menu application that will allow students to view the menu offered at each dining hall.
 
 Features:
