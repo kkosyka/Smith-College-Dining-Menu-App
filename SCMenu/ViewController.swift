@@ -12,7 +12,6 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var month: UILabel!
     @IBOutlet weak var dateNum: UILabel!
-    var mineSpillere = ["Spiller 1", "Spiller 2", "Spiller 3"]
     var first = 0;
     var menu = [[[String]]]()
     var currHouses = [String]()
@@ -51,7 +50,7 @@ class ViewController: UIViewController {
             let str = "https://www.smith.edu/diningservices/menu_poc/cbord_menus.php"
             guard let url = NSURL(string: str) else { throw CustomErrors.InvalidURL }
             let html = try String(contentsOfURL: url)
-            let houses = ["Chapin", "Chase/Duckett", "Compstock/Wilder", "Cushing/Emerson", "Cutter/Ziskind", "Ziskind Kosher", "Hubbard", "King/Scales", "Lamont", "Wilson", "Northrop/Gillett", "Tyler"]
+            let houses = ["Chapin", "Chase/Duckett", "Comstock/Wilder", "Cushing/Emerson", "Cutter/Ziskind", "Ziskind Kosher", "Hubbard", "King/Scales", "Lamont", "Wilson", "Northrop/Gillett", "Tyler"]
             let meals = ["breakfast", "lunch", "dinner"]
             let constantSplit = ["START CHAPIN BLOCK", "START CHASE  BLOCK", "START COMSTOCK  BLOCK", "START CUSHING BLOCK", "START CUTTER Z BLOCK", "START ZISKIND KOSHER  BLOCK", "HUBBARD BLOCK", "START KING HOUSE BLOCK", "START LAMONT BLOCK", "START MORROW/WILSON  BLOCK", "START GILLETT BLOCK", "START TYLER HOUSE BLOCK"]
             var htmlSplitters = [String]()
@@ -101,7 +100,8 @@ class ViewController: UIViewController {
                 let temp3 = mealHouse.componentsSeparatedByStrings(houseMealOptions[indexHouse])
                 var meal = [[String]]()
                 for i in (1...(temp3.count-1)){
-                    let temp4 = temp3[i].componentsSeparatedByStrings(["</h4></div><table><tr><td>", "</td></tr><tr><td>", "</td></tr></table></div></div>"])
+                    var temp4 = temp3[i].componentsSeparatedByStrings(["</h4></div><table><tr><td>", "</td></tr><tr><td>", "</td></tr></table></div></div>"])
+                    temp4.removeFirst(1)
                     var items = [String]()
                     for j in 0...(temp4.count-2){
                         items.append(temp4[j])
@@ -123,7 +123,7 @@ class ViewController: UIViewController {
         goToMenuHouse("Chase/Duckett")
     }
     @IBAction func comstockWilder(sender: AnyObject) {
-        goToMenuHouse("Compstock/Wilder")
+        goToMenuHouse("Comstock/Wilder")
     }
     
     @IBAction func cushingEmerson(sender: AnyObject) {
